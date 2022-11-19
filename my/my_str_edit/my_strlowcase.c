@@ -2,7 +2,7 @@
 ** project lib, 11/2022
 ** lowcase
 ** File description:
-** all capitalize letter become low 
+** all capitalize letter become low
 */
 
 char *my_strlowcase(char *str)

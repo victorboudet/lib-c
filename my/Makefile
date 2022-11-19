@@ -40,7 +40,7 @@ $(TARGET): clean
 	cp my.h ../../include/
 	make clean
 
-main: 
+main:
 	gcc main.c $(SRC) -I./ $(FLAGS)
 
 re: fclean

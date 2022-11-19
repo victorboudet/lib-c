@@ -7,7 +7,7 @@
 
 #include "my.h"
 
-char *makebase(int b, char *base) 
+char *makebase(int b, char *base)
 {
     int a;
     for (a = 0; a != 10; a++) {
