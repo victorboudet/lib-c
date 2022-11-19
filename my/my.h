@@ -14,7 +14,7 @@
 
 
 // my_display
-int my_showstr(char const *str);
+void my_showstr(char const *str);
 
 // my math
 int my_power_rec(int nb, int power);
@@ -42,7 +42,7 @@ char *my_strcapitalize(char *str);
 char *my_strlowcase(char *str);
 char *my_strupcase(char *str);
 
-// my_two_int
+// my two int
 void my_swap(int *a, int *b);
 
 // my two str

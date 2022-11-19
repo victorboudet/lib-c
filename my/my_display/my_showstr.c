@@ -7,7 +7,7 @@
 
 #include "my.h"
 
-int my_showstr(char const *str)
+void my_showstr(char const *str)
 {
     for (int a; str[a] != '\0'; a++) {
         if (str[a] > 31 && str[a] < 127) {
@@ -16,5 +16,5 @@ int my_showstr(char const *str)
             my_putchar(92);
             my_putnbr_basint(str[a], 16);
         }
-    }   
+    }
 }

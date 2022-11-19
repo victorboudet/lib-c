@@ -9,7 +9,7 @@
 
 void my_putnbr_base(int nb, char *base)
 {
-    int len = strlen(base);
+    int len = my_strlen(base);
     if (nb < 0) {
         nb *= -1;
         my_putchar('-');
