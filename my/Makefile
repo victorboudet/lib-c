@@ -20,17 +20,18 @@ STRCHECK = my_str_check/my_isneg.c my_str_check/my_str_isalpha.c\
 STREDIT = my_str_edit/my_revstr.c my_str_edit/my_strcapitalize.c\
  my_str_edit/my_strlowcase.c my_str_edit/my_strupcase.c
 
-TWOSTR = my_two_str/my_strcat.c my_two_str/my_strcmp.c my_two_str/my_strcpy.c\
- my_two_str/my_strncat.c my_two_str/my_strncmp.c my_two_str/strncpy.c\
- my_two_str/my_swap.c
+TWOINT = my_two_int/my_swapint.c
 
-SRC = 
+TWOSTR = my_two_str/my_strcat.c my_two_str/my_strcmp.c my_two_str/my_strcpy.c\
+ my_two_str/my_strncat.c my_two_str/my_strncmp.c my_two_str/strncpy.c
+
+SRC = $(DISPLAY) $(MATH) $(PUT) $(STRCHECK) $(STREDIT) $(TWOINT) $(TWOSTR)
 OBJ = $(SRC:.c=.o)
 TARGET = libmy.a
 
-all : $(TARGET)
+all: $(TARGET)
 
-$(TARGET) : $(OBJ)
+$(TARGET): $(OBJ)
 		gcc -c $(OBJ)
 		ar rc $(TARGET) $(OBJ)
 		mkdir -p ../../include

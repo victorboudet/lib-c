@@ -1,11 +1,11 @@
 /*
-** EPITECH PROJECT, 2022
-** str
+** project lib, 11/2022
+** strncpy
 ** File description:
-** sdsd
+** cpy the first n char of second str in the first
 */
 
-int my_strlen(char const *str);
+#include "my.h"
 
 char *my_strncpy(char *dest, char const *src, int n)
 {

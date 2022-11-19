@@ -1,8 +1,8 @@
 /*
-** EPITECH PROJECT, 2022
-** sdf
+**project lib, 11/2022
+** strupcase
 ** File description:
-** sdf
+** all low case become up
 */
 
 char *my_strupcase(char *str)

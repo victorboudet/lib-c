@@ -1,9 +1,10 @@
 /*
-** EPITECH PROJECT, 2022
-** df
+** project lib, 11/2022
+** strncat
 ** File description:
-** df
+** concatenate n first characters of seconde in first string
 */
+
 #include "my.h"
 
 char *my_strncat(char *dest, char const *src, int nb)

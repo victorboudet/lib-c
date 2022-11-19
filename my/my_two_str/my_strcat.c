@@ -1,10 +1,11 @@
 /*
-** EPITECH PROJECT, 2022
-** df
+** project lib, 11/2022
+** str cat
 ** File description:
-** df
+** concatenate src after dest
 */
-int my_strlen(char const *str);
+
+#include "my.h"
 
 char *my_strcat(char *dest, char const *src)
 {

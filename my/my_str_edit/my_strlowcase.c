@@ -1,8 +1,8 @@
 /*
-** EPITECH PROJECT, 2022
-** sd
+** project lib, 11/2022
+** lowcase
 ** File description:
-** sd
+** all capitalize letter become low 
 */
 
 char *my_strlowcase(char *str)

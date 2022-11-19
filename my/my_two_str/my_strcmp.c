@@ -1,8 +1,8 @@
 /*
-** EPITECH PROJECT, 2022
-** sdf
+** project lib, 11/2022
+** str cmp
 ** File description:
-** sdf
+** compare two strings
 */
 
 int my_strcmp(char const *s1, char const *s2)

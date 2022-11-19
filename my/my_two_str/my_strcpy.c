@@ -1,8 +1,8 @@
 /*
-** EPITECH PROJECT, 2022
-** my_strcpy
+** project lib, 11/2022
+** str cpy
 ** File description:
-** strcpy
+** cpy the second string in the first
 */
 
 char *my_strcpy(char *dest, char const *src)

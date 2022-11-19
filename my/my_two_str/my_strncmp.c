@@ -1,9 +1,10 @@
 /*
-** EPITECH PROJECT, 2022
-** sdf
+** project lib, 11/2022
+** strncmp
 ** File description:
-** sdf
+** compare n first character of two string
 */
+
 #include "my.h"
 
 int my_strncmp(char const *s1, char const *s2, int n)
